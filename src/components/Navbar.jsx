@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className='fixed top-0 absoluteX flex'>
       <div className='w-full pt-4 flex items-center justify-center'>
-      Navbar
+      <img src='/favicon.ico' className='' />
       </div>
     </nav>
   )

@@ -7,6 +7,7 @@ const Home = () => {
         <p>Landing</p>
         <p>The Party</p>
         <p>News</p>
+        <p>CTA</p>
 
       </div>
     </div>
