@@ -49,7 +49,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className='MOB w-full absolute inset-0 z-[201] bg-primary p-4'>
+      <div className='MOB w-full absolute inset-0 z-[201]bg-blakk p-4'>
         <div className='wrapper full flexV pt-6 signal'>
 
           <div className='absolute right-4 top-4 remixicon'>
