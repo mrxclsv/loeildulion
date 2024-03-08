@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className='flex w-full justify-between items-center *:w-full *:center'>
           {/* LEFT FOR DESK NAVLIST */}
           <div className='DESK px-6'>
-            <div className='flex items-center justify-start w-full'>
+            <div className='flex items-center justify-start w-full space-x-5'>
               {navbar.left.map((item, index) => (
                 <NavLink
                   key={item.name}
@@ -32,11 +32,13 @@ const Navbar = () => {
               ))}
             </div>
           </div>
+          
 
           {/* MID DIV FOR LOGO */}
           <div className="flex center z-[300]" onClick={() => setMenu(false)}>
             <img src='/logo.png' className='flex center size-12' alt="YoonWi ®" />
           </div>
+
 
           {/* RIGHT FOR DESK NAVLIST */}
           <div className='DESK px-6'>

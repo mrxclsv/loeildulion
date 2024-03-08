@@ -7,7 +7,7 @@ const Button = ({ label, link, action, variant }) => {
       to={link || undefined}
       onClick={action}
       className={`inline-flex center px-4 py-2 rounded-lg bg-zinc-500/5
-                ${variant === 'primary' && '!bg-primary'}
+                ${variant === 'primary' && '!bg-primary active:scale-x-90 quick'}
                 ${variant === "naked" && "!bg-transparent"}
                 disabled:opacity-50 disabled:
                 `}>

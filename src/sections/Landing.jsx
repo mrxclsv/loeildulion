@@ -1,5 +1,5 @@
 import React from 'react'
-import { LandingHero } from '../utils/assets'
+// import { LandingHero } from '../utils/assets'
 
 const Landing = () => {
   return (
