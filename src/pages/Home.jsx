@@ -6,7 +6,7 @@ const Home = () => {
 
   return (
     <div className='page'>
-      <div className='home wrapper h-[100vh] flexV center'>
+      <div className='home wrapper flexV center'>
         <Landing />
         <TheParty />
         <CTA />

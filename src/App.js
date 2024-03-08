@@ -13,7 +13,7 @@ function App() {
 
       <Navbar />
 
-      <main className=' '>
+      <main className='overflow-y-auto scrollbar-hide'>
 
         <Routes>
 
