@@ -10,9 +10,10 @@ export { default as Footer } from '../components/Footer'
 export { default as Button } from '../components/Button'
 export { default as Socials } from '../sections/Socials'
 export { default as SocialItem } from '../components/SocialItem'
+export { default as Gradient } from '../components/Gradient'
 
 
-// S E C T I O NS
+// S E C T I O N S
 export { default as Landing } from '../sections/Landing'
 export { default as TheParty } from '../sections/TheParty'
 export { default as CTA } from '../sections/CTA'
