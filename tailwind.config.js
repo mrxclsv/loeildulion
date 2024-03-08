@@ -16,8 +16,10 @@ module.exports = {
     extend: {
       colors: {
         blakk: "#0f1010",
-        primary: "#C70000",
+        primary: "#EFB65B",
+        primary2 : "#E3A839",
         secondary: "#262262",
+        green: "#12883A"
       },
       aspectRatio: {
         '1/1': '1 / 1',

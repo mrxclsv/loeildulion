@@ -1,172 +1,89 @@
-import { nakala_heroPhoto } from "./assets"
+export { default as useNav } from '../hooks/useNav'
 
-export const workData = [
-  {
-    client: 'Nakala',
-    page: "nakala",
-    title: "Nak'ala",
-    descr: "360 Branding for milk brand",
-    heroVideo: "https://www.pexels.com/video/from-above-footage-a-woman-wearing-a-wide-brimmed-hat-sitting-on-a-daybed-by-the-pool-area-3015487/",
-    heroPhoto: nakala_heroPhoto,
-    imageCSS: 'hidden',
-    videoCSS: "",
-    link: 'nakala',
-    category: ["Food & Beverages"],
-    services: [
-      { name: "Branding", url: 'branddesign' },
-      { name: "3D", url: 'branddesign' },
-      { name: "Media Production", url: '' },
-    ],
-    caseStudy: "yes",
-    artwork: 'logo_nakala.png',
-    artworkSrc: '',
-    date: {
-      dd: 3,
-      mm: 'Avr',
-      yy: 2022
-    },
-    location: 'Senegal',
-    mapLink: 'n/a',
-    budget: 1300000,
-  },
-
-  {
-    client: 'Amossa Interior',
-    page: "amossa",
-    title: 'Amossa',
-    descr: "Rebranding and brand strategy of an interior design firm",
-    heroVideo: "https://www.pexels.com/video/from-above-footage-a-woman-wearing-a-wide-brimmed-hat-sitting-on-a-daybed-by-the-pool-area-3015487/",
-    videoCSS: "",
-    heroPhoto: "https://images.pexels.com/photos/271743/pexels-photo-271743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    imageCSS: 'hidden',
-    link: 'amossa',
-    category: ["Interior design"],
-    services: [
-      { name: "Branding", url: 'branddesign' },
-      { name: "Media Production", url: '' },
-    ],
-    caseStudy: "yes",
-    artwork: 'logo_nakala.png',
-    artworkSrc: '',
-    date: {
-      dd: 3,
-      mm: 'Avr',
-      yy: 2022
-    },
-    location: 'Senegal',
-    mapLink: 'n/a',
-    budget: 1300000,
-  },
-
-  {
-    client: 'TeewTickets',
-    page: "teewtickets",
-    title: "TeewTickets",
-    descr: "Digital ticketing service",
-    heroVideo: 'https://www.pexels.com/video/from-above-footage-a-woman-wearing-a-wide-brimmed-hat-sitting-on-a-daybed-by-the-pool-area-3015487/',
-    videoCSS: "hidden",
-    heroPhoto: 'https://www.pexels.com/photo/gray-dining-table-under-pendant-lamps-3356416/',
-    imageCSS: "flex",
-    link: 'teewtickets',
-    category: ["Branding"],
-    services: [
-      { name: "Branding", url: 'branddesign' },
-      { name: "3D", url: 'branddesign' },
-      { name: "Media Production", url: '' },
-    ],
-    caseStudy: "yes",
-    artwork: 'logo_nakala.png',
-    artworkSrc: '',
-    date: {
-      dd: 3,
-      mm: 'Avr',
-      yy: 2022
-    },
-    location: 'Senegal',
-    mapLink: 'n/a',
-    budget: 1200000,
-  },
-
-]
 
 export const team = [
   {
-    name: { first: "Daouda", last: "Diallo" },
-    position: "Founder & Director",
-    nickname: "Mr.Exclusive",
-    handle: { instagram: "mr.xclv" },
-    image: "https://res.cloudinary.com/lawwd/image/upload/v1657459657/.MRX/EX_LAWWD__yjdlmt.jpg",
-  },
-  {
-    name: { first: "Abdoulaye", last: "Diop" },
+    name: { first: "Abdoulaye", last: "Sylla", prefix: "Président" },
     position: "Manager",
     nickname: "Mr.Exclusive",
     handle: { instagram: "", },
     image: "https://images.pexels.com/photos/3796620/pexels-photo-3796620.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
-    name: { first: "Ndeye Fatou", last: "Sow" },
-    position: "Strategic Partner",
-    nickname: "NFS",
-    handle: { instagram: "_____nfs", },
-    image: "https://images.pexels.com/photos/3796620/pexels-photo-3796620.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  }
-
+    name: { first: "Assane", last: "SYLLA", prefix: "" },
+    position: "Secretaire Général",
+    nickname: "",
+    handle: { instagram: "barbumusprime" },
+    image: "https://res.cloudinary.com/lawwd/image/upload/v1657459657/.MRX/EX_LAWWD__yjdlmt.jpg",
+  },
 ]
 
 export const headers = [
   {
-    name: 'talks',
-    descr: 'discussions on design and the business of design with various guests',
-    link: 'talks',
-    icon: 'record'
+    name: "home",
+    descr: "",
+    link: "/",
+    icon: "home"
   },
   {
-    name: 'the.lab',
-    descr: 'the lab for content in Branding Media Production, 3D & Dev',
-    link: 'lab',
+    name: "the.lab",
+    descr: "the lab for content in Branding Media Production, 3D & Dev",
+    link: "lab",
     icon: 'briefcase'
   },
   {
-    name: 'explores',
+    name: "explores",
     descr: 'make & share creative memories while (re)exploring places',
-    link: 'explores',
-    icon: 'service'
+    link: "explores",
+    icon: "service"
   },
   {
-    name: 'initiatives',
-    descr: 'lawwd-supported businesses and initiatives',
-    link: 'lawwd.co/initiatives',
-    icon: 'information'
+    name: "faq",
+    descr: "Answers commonly asked questions about the party's platform, positions, and procedures.",
+    link: "lawwd.co/initiatives",
+    icon: "information"
   },
 ]
 
-export const navbar = [
-  {
-    name: "portfolio",
-    icon: 'projects.svg',
-    link: '/projects',
-    delay: 'delay-[.1s]'
-  },
-  {
-    name: "contact",
-    icon: 'events.svg',
-    link: '/events',
-    delay: 'delay-[.2s]'
-  },
-  {
-    name: "team",
-    icon: 'tutorials.svg',
-    link: '/tutorials',
-    delay: 'delay-[.4s]'
-  },
-  {
-    name: "ventures",
-    icon: 'settings.svg',
-    link: '/settings',
-    delay: 'delay-[.6s]'
-  },
-]
+export const navbar = {
+  left: [
+
+    {
+      name: "accueil",
+      icon: 'projects.svg',
+      link: '/',
+    },
+    {
+      name: "a propos",
+      icon: 'events.svg',
+      link: '/about',
+    },
+    {
+      name: "la plateforme",
+      icon: 'tutorials.svg',
+      link: '/platform',
+    },
+    {
+      name: "media",
+      icon: 'settings.svg',
+      link: '/media',
+    },
+
+  ],
+  right: [
+    {
+      name: "media",
+      icon: 'settings.svg',
+      link: '/media',
+    },
+    {
+      name: "ressources voteurs",
+      icon: 'settings.svg',
+      link: '/voter-resources',
+    },
+
+  ]
+}
 
 export const lawwd = {
   logo: "lawwd.ico",
@@ -185,7 +102,6 @@ export const project = {
     { name: 'youtube', short: '', link: 'https://youtube.com/channels/lawwd' },
     { name: 'instagram', short: '', link: 'https://instagram.com/lawwd.co' },
     { name: 'dribbble', short: '', link: 'https://dribbble.com/lawwd' },
-    { name: 'behance', short: '', link: 'https://behance.net/lawwd' },
   ],
   credits: `Designed & Dev by' ${lawwd.logo}`,
   copyright: {
