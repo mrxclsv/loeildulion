@@ -3,17 +3,17 @@ export { default as useNav } from '../hooks/useNav'
 
 export const team = [
   {
-    name: { first: "Abdoulaye", last: "Sylla", prefix: "Président" },
-    position: "Manager",
-    nickname: "Mr.Exclusive",
-    handle: { instagram: "", },
+    name: { first: "Caab Ousmane", last: "Sidibe", prefix: "" },
+    position: "Co-Founder",
+    nickname: "caab_ousmane",
+    handle: { instagram: "caab_ousmane", },
     image: "https://images.pexels.com/photos/3796620/pexels-photo-3796620.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
-    name: { first: "Assane", last: "SYLLA", prefix: "" },
-    position: "Secretaire Général",
+    name: { first: "Pape", last: "", prefix: "" },
+    position: "Co-founder",
     nickname: "",
-    handle: { instagram: "barbumusprime" },
+    handle: { instagram: "pape" },
     image: "https://res.cloudinary.com/lawwd/image/upload/v1657459657/.MRX/EX_LAWWD__yjdlmt.jpg",
   },
 ]
@@ -47,7 +47,6 @@ export const headers = [
 
 export const navbar = {
   left: [
-
     {
       name: "accueil",
       icon: 'projects.svg',
@@ -68,8 +67,8 @@ export const navbar = {
       icon: 'settings.svg',
       link: '/media',
     },
-
   ],
+  
   right: [
     {
       name: "media",
@@ -85,27 +84,24 @@ export const navbar = {
   ]
 }
 
-export const lawwd = {
-  logo: "lawwd.ico",
-  link: "https://lawwd.co",
+export const loeildulion = {
+  logo: "favicon.ico",
+  link: "https://loeildulion.com",
 }
 
 export const project = {
-  name: "LAWWD.co",
-  brand: "LookAtWhatWeDid",
-  descr: "We are a 360° Branding company based in Dakar.",
-  tagline: "Sourced in Senegal, served worldwide",
-  logo: "lawwd.svg",
+  name: "loeildulion",
+  descr: "",
+  tagline: "Sports, Art & Culture",
+  logo: "logo.png",
   socials: [
-    { name: 'facebook', short: '', link: 'https://facebook.com/pages/lookatwhatwedid' },
-    { name: 'twitter', short: '', link: 'https://twitter.com/lawwd.studios' },
-    { name: 'youtube', short: '', link: 'https://youtube.com/channels/lawwd' },
-    { name: 'instagram', short: '', link: 'https://instagram.com/lawwd.co' },
-    { name: 'dribbble', short: '', link: 'https://dribbble.com/lawwd' },
+    { name: 'youtube', short: '', link: 'https://www.youtube.com/@Loeildulion' },
+    { name: 'instagram', short: '', link: 'https://instagram.comloeildulion/' },
+    { name: 'tiktok', short: '', link: 'https://tiktok.com/@loeildulion_' },
   ],
-  credits: `Designed & Dev by' ${lawwd.logo}`,
+  credits: `Designed & Dev by' ${loeildulion.logo}`,
   copyright: {
-    short: '2020—2024, LAWWD',
+    short: '2020—2024, loeildulion',
     long: ' all rights reserved'
   },
 }
