@@ -36,7 +36,7 @@ const Navbar = () => {
 
           {/* MID DIV FOR LOGO */}
           <div className="flex center z-[300]" onClick={() => setMenu(false)}>
-            <img src='/logo.png' className='flex center size-12' alt="YoonWi ®" />
+            <img src='/logo.png' className='flex center size-12' alt="loeildulion ®" />
           </div>
 
 

@@ -8,6 +8,7 @@ export { default as Footer } from '../components/Footer'
 
 // COMPONENTS
 export { default as Button } from '../components/Button'
+export { default as Section } from '../components/Section'
 export { default as Socials } from '../sections/Socials'
 export { default as SocialItem } from '../components/SocialItem'
 export { default as Gradient } from '../components/Gradient'
