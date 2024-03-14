@@ -18,32 +18,32 @@ export const team = [
   },
 ]
 
-export const headers = [
-  {
-    name: "home",
-    descr: "",
-    link: "/",
-    icon: "home"
-  },
-  {
-    name: "the.lab",
-    descr: "the lab for content in Branding Media Production, 3D & Dev",
-    link: "lab",
-    icon: 'briefcase'
-  },
-  {
-    name: "explores",
-    descr: 'make & share creative memories while (re)exploring places',
-    link: "explores",
-    icon: "service"
-  },
-  {
-    name: "faq",
-    descr: "Answers commonly asked questions about the party's platform, positions, and procedures.",
-    link: "lawwd.co/initiatives",
-    icon: "information"
-  },
-]
+// export const headers = [
+//   {
+//     name: "home",
+//     descr: "",
+//     link: "/",
+//     icon: "home"
+//   },
+//   {
+//     name: "the.lab",
+//     descr: "the lab for content in Branding Media Production, 3D & Dev",
+//     link: "lab",
+//     icon: 'briefcase'
+//   },
+//   {
+//     name: "explores",
+//     descr: 'make & share creative memories while (re)exploring places',
+//     link: "explores",
+//     icon: "service"
+//   },
+//   {
+//     name: "faq",
+//     descr: "Answers commonly asked questions about the party's platform, positions, and procedures.",
+//     link: "lawwd.co/initiatives",
+//     icon: "information"
+//   },
+// ]
 
 export const navbar = {
   left: [
@@ -58,27 +58,32 @@ export const navbar = {
       link: '/about',
     },
     {
-      name: "la plateforme",
+      name: "sports",
       icon: 'tutorials.svg',
       link: '/platform',
     },
     {
-      name: "media",
+      name: "art",
       icon: 'settings.svg',
       link: '/media',
     },
+    {
+      name: "culture",
+      icon: 'tutorials.svg',
+      link: '/platform',
+    },
   ],
-  
+
   right: [
     {
-      name: "media",
-      icon: 'settings.svg',
-      link: '/media',
+      name: "search",
+      icon: 'search',
+      // link: '/media',
     },
     {
       name: "ressources voteurs",
       icon: 'settings.svg',
-      link: '/voter-resources',
+      // link: '/voter-resources',
     },
 
   ]

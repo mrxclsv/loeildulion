@@ -13,6 +13,9 @@ module.exports = {
       'mfs': { paintOrder: 'markers fill stroke' },
       'msf': { paintOrder: 'markers stroke fill' },
     },
+    fontFamily: {
+      Ginto: "Ginto"
+    },
     extend: {
       colors: {
         blakk: "#0f1010",
