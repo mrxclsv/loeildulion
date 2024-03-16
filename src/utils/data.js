@@ -1,5 +1,49 @@
 export { default as useNav } from '../hooks/useNav'
 
+export const clients = [
+  { name: "Fédération Sénégalaise de Football",
+    metadata: {
+      date:"2022"
+    },
+    logo: "/logo.png",
+    link: ""
+  },
+  { name: "Orange Senegal",
+    metadata: {
+      date:"2022"
+    },
+    logo: "/logo.png",
+    link: ""
+  },
+  { name: "Fédération Sénégalaise de Football",
+    metadata: {
+      date:"2022"
+    },
+    logo: "/logo.png",
+    link: ""
+  },
+  { name: "Fédération Sénégalaise de Lutte",
+    metadata: {
+      date:"2022"
+    },
+    logo: "/logo.png",
+    link: ""
+  },
+  { name: "NBA Academy",
+    metadata: {
+      date:"2022"
+    },
+    logo: "/logo.png",
+    link: ""
+  },
+  { name: "",
+    metadata: {
+      date:"2022"
+    },
+    logo: "/logo.png",
+    link: ""
+  },
+]
 
 export const team = [
   {
@@ -49,62 +93,72 @@ export const navbar = {
   left: [
     {
       name: "accueil",
-      icon: 'projects.svg',
+      icon: '',
+      slug: "",
       link: '/',
     },
     {
       name: "a propos",
-      icon: 'events.svg',
+      icon: '',
+      slug: "",
       link: '/about',
     },
     {
-      name: "sports",
-      icon: 'tutorials.svg',
-      link: '/platform',
-    },
-    {
-      name: "art",
-      icon: 'settings.svg',
+      name: "media",
+      icon: '',
+      slug: "",
       link: '/media',
     },
-    {
-      name: "culture",
-      icon: 'tutorials.svg',
-      link: '/platform',
-    },
+
+    // {
+    //   name: "sports",
+    //   icon: 'tutorials.svg',
+    //   slug: "media",
+    //   link: '/platform',
+    // },
+    // {
+    //   name: "art",
+    //   icon: '',
+    //   slug: "media",
+    //   link: '/art',
+    // },
+    // {
+    //   name: "culture",
+    //   icon: '',
+    //   slug: "media",
+    //   link: '/culture',
+    // },
+
   ],
 
   right: [
     {
-      name: "search",
+      name: "",
       icon: 'search',
-      // link: '/media',
+      slug: "",
+      link: '',
     },
-    {
-      name: "ressources voteurs",
-      icon: 'settings.svg',
-      // link: '/voter-resources',
-    },
+
 
   ]
 }
 
-export const loeildulion = {
+export const thisApp = {
   logo: "favicon.ico",
   link: "https://loeildulion.com",
 }
 
 export const project = {
-  name: "loeildulion",
+  name: "L'œil Du Lion",
   descr: "",
-  tagline: "Sports, Art & Culture",
+  tagline: "Sport, Art & Culture",
   logo: "logo.png",
   socials: [
     { name: 'youtube', short: '', link: 'https://www.youtube.com/@Loeildulion' },
     { name: 'instagram', short: '', link: 'https://instagram.comloeildulion/' },
     { name: 'tiktok', short: '', link: 'https://tiktok.com/@loeildulion_' },
   ],
-  credits: `Designed & Dev by' ${loeildulion.logo}`,
+  credits: `Designed & Dev by' ${thisApp.logo}`,
   copyright: {
     short: '2020—2024, loeildulion',
     long: ' all rights reserved'

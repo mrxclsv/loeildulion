@@ -1,17 +1,17 @@
 import React from 'react';
-import { CTA, Landing, News, TheParty } from '../utils/imports';
+import { CTA, Clients, Landing, News, Reel } from '../utils/imports';
 
 const Home = () => {
 
 
   return (
     <div className='page'>
-      <div className='home wrapper flexV center'>
-        <Landing />
-        <TheParty />
+      <div className=''>
+        {/* <Landing /> */}
+        <Reel />
+        <Clients />
         <CTA />
         <News />
-
       </div>
     </div>
   )
