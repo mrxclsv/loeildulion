@@ -1,5 +1,5 @@
 import React from 'react';
-import { CTA, Clients, Landing, News, Reel } from '../utils/imports';
+import { CTA, Clients, Landing, Latest, News, Reel, Stats } from '../utils/imports';
 
 const Home = () => {
 
@@ -9,6 +9,8 @@ const Home = () => {
       <div className=''>
         {/* <Landing /> */}
         <Reel />
+        <Stats />
+        <Latest />
         <Clients />
         <CTA />
         <News />

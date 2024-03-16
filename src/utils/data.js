@@ -1,48 +1,60 @@
 export { default as useNav } from '../hooks/useNav'
 
 export const clients = [
-  { name: "Fédération Sénégalaise de Football",
+  {
+    name: "Fédération Sénégalaise de Football",
     metadata: {
-      date:"2022"
+      date: "2022"
     },
     logo: "/logo.png",
     link: ""
   },
-  { name: "Orange Senegal",
+  {
+    name: "Orange Senegal",
     metadata: {
-      date:"2022"
+      date: "2022"
     },
     logo: "/logo.png",
     link: ""
   },
-  { name: "Fédération Sénégalaise de Football",
+  {
+    name: "Fédération Sénégalaise de Football",
     metadata: {
-      date:"2022"
+      date: "2022"
     },
     logo: "/logo.png",
     link: ""
   },
-  { name: "Fédération Sénégalaise de Lutte",
+  {
+    name: "Fédération Sénégalaise de Lutte",
     metadata: {
-      date:"2022"
+      date: "2022"
     },
     logo: "/logo.png",
     link: ""
   },
-  { name: "NBA Academy",
+  {
+    name: "NBA Academy",
     metadata: {
-      date:"2022"
+      date: "2022"
     },
     logo: "/logo.png",
     link: ""
   },
-  { name: "",
+  {
+    name: "",
     metadata: {
-      date:"2022"
+      date: "2022"
     },
     logo: "/logo.png",
     link: ""
   },
+]
+
+export const latestVideos = [
+  { url: "https://www.youtube.com/watch?v=xuas_Yc7VNQ", },
+  { url: "https://www.youtube.com/watch?v=V1XeRNYIjqw", },
+  { url: "https://www.youtube.com/watch?v=t2OjUdh8ouo" },
 ]
 
 export const team = [

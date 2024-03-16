@@ -21,6 +21,8 @@ export { default as Gradient } from '../components/Gradient'
 
 // S E C T I O N S
 export { default as Landing } from '../sections/Landing'
+export { default as Stats } from '../sections/Stats'
+export { default as Latest } from '../sections/Latest'
 export { default as Reel } from '../sections/Reel'
 export { default as Clients } from '../sections/Clients'
 export { default as CTA } from '../sections/CTA'
