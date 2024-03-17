@@ -15,7 +15,7 @@ const Stats = () => {
           descr="Through engaging and insightful content, we aim to foster a deeper appreciation and connection to the spirit of Senegal, both locally and globally, while fostering a sense of unity and pride within our community."
         />
 
-        <div className='grid grid-flow-col grid-cols-2===lg:grid-cols-4 center '>
+        <div className='grid grid-cols-2 lg:grid-cols-3 center '>
           {clients.map((item, index) => (
             <Client key={index}
               name={item.name}

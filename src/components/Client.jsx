@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Client = ({ name, logo, link }) => {
   return (
-    <Link to={link || "/"} className='flexV p-8 w-full relative center group '>
+    <Link to={link || "/"} className='flexV p-2 w-full relative center group '>
       <img
         src={logo}
         className='saturate-0 opacity-60 size-32 group:hover:opacity-100 group:hover:saturate-100 object-contain'

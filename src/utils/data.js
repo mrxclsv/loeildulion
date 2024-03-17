@@ -110,10 +110,10 @@ export const navbar = {
       link: '/',
     },
     {
-      name: "a propos",
+      name: "services",
       icon: '',
       slug: "",
-      link: '/about',
+      link: '/services',
     },
     {
       name: "media",

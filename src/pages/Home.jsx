@@ -6,7 +6,7 @@ const Home = () => {
 
   return (
     <div className='page'>
-      <div className=''>
+      <div className='relative flexV items-center justify-start w-full h-full'>
         {/* <Landing /> */}
         <Reel />
         <Stats />
