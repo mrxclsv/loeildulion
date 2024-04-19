@@ -35,7 +35,8 @@ const Landing = () => {
                 controls={false}
 
                 playing={isPlaying} loop
-                muted={false}
+                muted
+                // ={false}
               />
             </div>
           </div>
