@@ -12,7 +12,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className='fixed top-0 inset-0 flex z-[200] '>
+    <nav className='fixed top-0 h-10 = inset-x-0 max-w-[100svw] flex z-[200] '>
 
       <div className='w-full h-16 pt-4 flex items-center justify-center max-w-screen-2xl mx-auto z-[200] '>
         <div className='flex w-full justify-between items-center *:w-full *:center'>

@@ -11,13 +11,11 @@ const Latest = () => {
   return (
     <div className="flexV center relative w-[100svw] bg-black overflow-hidden py-20">
 
-      <div className='resp flexV'>
-        <Header header="Our Recent Work" title=" " descr=" " />
+      <div className='resp flexV '>
+        <Header header="Our Recent Work" title="Voir à travers l'Oeil Du Lion" descr=" " />
         <div className='flexV w-full relative'>
-
           <div className='w-full overflow-x-scroll scrollbar-hide max-w-[90vw]'>
             <div className='flex items-center justify-start w-full gap-10'>
-
               {latestVideos?.map((item, index) => (
                 <div id={item.url} className='aspect-9/16 min-w-[300px] h-fit *:opacity-50==== *:hover:opacity-100==== flexV center relative rounded-lg overflow-hidden '>
                   <ReactPlayer
@@ -30,10 +28,10 @@ const Latest = () => {
                   />
                 </div>
               ))}
-
             </div>
           </div>
         </div>
+
       </div>
     </div>
   )

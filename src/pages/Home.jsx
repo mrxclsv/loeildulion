@@ -5,15 +5,15 @@ const Home = () => {
 
 
   return (
-    <div className='page'>
-      <div className='relative flexV items-center justify-start w-full h-full'>
+    <div className='page h-[100vh] overflow-y-auto scrollbar-hide'>
+      <div className='relative flexV items-center justify-start w-full h-fit scrollbar-hide'>
         {/* <Landing /> */}
         <Reel />
         <Stats />
         <Latest />
-        <Clients />
-        <CTA />
-        <News />
+        {/* <Clients /> */}
+        {/* <CTA /> */}
+        {/* <News /> */}
       </div>
     </div>
   )

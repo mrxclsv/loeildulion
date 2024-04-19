@@ -46,7 +46,7 @@
   }
 
   .resp {
-    @apply max-w-5xl w-full mx-auto
+    @apply max-w-5xl w-full mx-auto px-6 md:px-8 lg:px-12
   }
 
 
