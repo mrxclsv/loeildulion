@@ -1,16 +1,19 @@
 import React from 'react';
-import { CTA, Clients, Landing, Latest, News, Reel, Stats } from '../utils/imports';
+import {
+  // CTA, Clients,  Latest, News, 
+  Reel, /* Stats, Landing, */
+} from '../utils/imports';
 
 const Home = () => {
 
 
   return (
-    <div className='page h-[100vh] overflow-y-auto scrollbar-hide'>
+    <div className='page overflow-y-auto scrollbar-hide'>
       <div className='relative flexV items-center justify-start w-full h-fit scrollbar-hide'>
         {/* <Landing /> */}
         <Reel />
-        <Stats />
-        <Latest />
+        {/* <Stats /> */}
+        {/* <Latest /> */}
         {/* <Clients /> */}
         {/* <CTA /> */}
         {/* <News /> */}
