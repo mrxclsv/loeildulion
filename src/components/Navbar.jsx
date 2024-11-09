@@ -35,7 +35,7 @@ const Navbar = () => {
           {/* RIGHT FOR DESK NAVLIST */}
           <div className='DESK px-6=='>
             <div className='flex items-center justify-end w-full space-x-5'>
-              {navbar.right.map((item, index) => (
+              {navbar.right.map((item) => (
                 <NavItem key={item.name}
                   to={item.link}
                   name={item.name}
